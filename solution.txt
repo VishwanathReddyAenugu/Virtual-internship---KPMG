@@ -1,0 +1,37 @@
+Task-1:
+
+Dear Client,
+we have conducted a data quality assesment of the datasets you have provided us with. 
+The three data sets("Transactions" "CustomerDemographic" "CustomerAddress") are combined to form a larger
+dataset of your customers information and thir corresponding transactions.
+
+Here is a breief report.
+The dataset has 19968 rows or transactions and 30 columns. There are 3489 customers
+
+1) There are some missing values in the following columns. The number of missing values per cloumn is shown below.
+
+online_order             :  359
+brand                    :  195
+product_line             :  195
+product_class            :  195
+product_size             :  195
+standard_cost            :  195
+product_first_sold_date  :  195
+last_name                :  642
+DOB                      :  446
+job_title                :  2379
+job_industry_category    :  3222
+default                  :  1451
+tenure                   :  446
+
+2) The column "product_first_sold_date" has values that cannot be interpreted as a date. Example values
+are 41245.0	,37659.0 etc.
+
+3) The column gender represents the gender class with different notations like females are given values as "F"
+"Femal" and "Female". similarly males are "M", "Male". This has to be corrected by using same value for a iven gender.
+
+4) The column "default" has many absurb values
+
+5) The column country has zero variance and is not usefull for analysis
+
+6) The customer with customer_id = 34 was born in the year 1843. This is absurd
