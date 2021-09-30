@@ -1,13 +1,13 @@
 Task-1:
 
 Dear Client,
+
 we have conducted a data quality assesment of the datasets you have provided us with. 
 The three data sets("Transactions" "CustomerDemographic" "CustomerAddress") are combined to form a larger
-dataset of your customers information and thir corresponding transactions. Note this reduces the number of 
-customers by 3 due to inner join.
+dataset of your customers information and their corresponding transactions. This combination is called inner join.
 
 Here is a breief report.
-The dataset has 19968 rows or transactions and 30 columns. There are 3489 customers
+
 
 1) There are some missing values in the following columns. The number of missing values per cloumn is shown below.
 
@@ -29,10 +29,17 @@ tenure                   :  446
 are 41245.0	,37659.0 etc.
 
 3) The column gender represents the gender class with different notations like females are given values as "F"
-"Femal" and "Female". similarly males are "M", "Male". This has to be corrected by using same value for a iven gender.
+"Femal" and "Female". similarly males are "M", "Male". This has to be corrected by using same value for a given 
+gender.
 
-4) The column "default" has many absurb values
+4) The column "default" has many absurb values and should be removed from the dataset
 
 5) The column country has zero variance and is not usefull for analysis
 
 6) The customer with customer_id = 34 was born in the year 1843. This is absurd
+
+These issues with the data need to be corrected before further analysing the data.
+
+kind regards,
+vishwanath reddy Aenugu
+Intern at KPMG
