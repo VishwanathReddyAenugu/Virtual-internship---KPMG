@@ -3,7 +3,8 @@ Task-1:
 Dear Client,
 we have conducted a data quality assesment of the datasets you have provided us with. 
 The three data sets("Transactions" "CustomerDemographic" "CustomerAddress") are combined to form a larger
-dataset of your customers information and thir corresponding transactions.
+dataset of your customers information and thir corresponding transactions. Note this reduces the number of 
+customers by 3 due to inner join.
 
 Here is a breief report.
 The dataset has 19968 rows or transactions and 30 columns. There are 3489 customers
