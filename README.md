@@ -9,3 +9,8 @@ Sprocket Central Pty Ltd needs help with its customer and transactions data. The
 Identify all the data quality issues and draft an email to the client identifying all the data-quality issues
 ## Task-2:
 ## Task-3: 
+
+
+
+
+
