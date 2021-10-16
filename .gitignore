@@ -13,4 +13,3 @@ __pycache__
 .idea
 *.csv
 *.xlsx
-customerData.csv
