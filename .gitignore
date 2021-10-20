@@ -14,3 +14,4 @@ __pycache__
 *.csv
 *.xlsx
 article1.pdf
+clustering.ipynb
